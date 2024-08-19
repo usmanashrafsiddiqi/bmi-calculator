@@ -1,0 +1,61 @@
+.container {
+  width: 575px;
+  height: 825px;
+  background-color: #f0f8ff; /* Light Alice Blue background */
+  padding-left: 30px;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+}
+
+#height, #weight {
+  width: 150px;
+  height: 35px;
+  margin-top: 30px;
+  border: 2px solid #4a90e2; /* Blue border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 5px;
+  font-size: 16px;
+}
+
+#weight-guide {
+  margin-left: 75px;
+  margin-top: 25px;
+  font-size: 18px;
+  color: #333; /* Dark gray text */
+}
+
+#results {
+  font-size: 40px;
+  margin-left: 90px;
+  margin-top: 20px;
+  color: #4a90e2; /* Blue text */
+}
+
+button {
+  width: 150px;
+  height: 45px;
+  margin-left: 90px;
+  margin-top: 25px;
+  background-color: #4a90e2; /* Blue background */
+  padding: 0 20px;
+  border-radius: 8px;
+  color: #fff; /* White text */
+  text-decoration: none;
+  border: 2px solid #4a90e2; /* Matching border */
+  font-size: 20px;
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth color transition */
+}
+
+button:hover {
+  background-color: #357abd; /* Darker blue on hover */
+  border-color: #357abd; /* Matching border on hover */
+}
+
+h1 {
+  padding-left: 15px;
+  padding-top: 25px;
+  font-size: 36px;
+  color: #333; /* Dark gray text */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+}
